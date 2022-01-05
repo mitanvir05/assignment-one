@@ -1,0 +1,45 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 10%;
+
+
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+    color: green;
+}
+
+#left-border {
+    border-left: 4px solid;
+    border-image: linear-gradient(red, red);
+    border-image-slice: 1;
+    line-height: 35px;
+}
+
+.flexible-content {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.half-width img {
+    width: 60%;
+    float: right;
+}
+
+.button-decoration {
+    text-decoration: none;
+    background-color: tomato;
+    color: white;
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 70px;
+}
