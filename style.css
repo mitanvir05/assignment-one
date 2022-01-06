@@ -21,7 +21,7 @@ h2 {
 
 .flexible-content {
     display: flex;
-    padding: 10px;
+    padding: 60px;
 
 }
 
@@ -89,12 +89,6 @@ span {
     margin: 5px;
 }
 
-.project-pic img {
-    width: 50%;
-
-}
-
-
 
 
 
@@ -123,15 +117,54 @@ span {
 
 .meeting-right img {
     /* height: 50%; */
-    width: 50%;
+    width: 60%;
+    float: right;
+
 }
 
 
 
 
+.app-heading h1 {
+    text-align: center;
+}
+
+.app-heading-color {
+    color: burlywood;
+}
+
+.app-image img {
+    width: 80%;
+    height: 70%;
+}
+
+.app-sec-heading {
+    color: burlywood;
+}
+
+.heading-height {
+    line-height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer {
-    margin-left: 0%;
-    margin-right: 0%;
+    /* margin-left: 0%;
+    margin-right: 0%; */
+    margin: 0%;
     text-align: center;
     font-size: larger;
     font-weight: 700;
@@ -151,11 +184,14 @@ footer {
 
 .small-text {
     text-align: center;
-    font-size: 10px;
+    font-size: 15px;
     /* padding-left: 40%; */
     color: rgb(253, 251, 247);
 }
-.footer-design{
-  background-color: black;
-  /* margin: 0%; */
+
+.footer-design {
+    background-color: black;
+    padding: 30px;
+    margin: 0%;
+    line-height: 50px;
 }
