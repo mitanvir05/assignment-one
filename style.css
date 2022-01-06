@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
-    margin: 10%;
+    margin: 5%;
 }
 
 h1 {
@@ -22,7 +22,7 @@ h2 {
 .flexible-content {
     display: flex;
     padding: 10px;
-    
+
 }
 
 .half-width {
@@ -31,7 +31,8 @@ h2 {
 
 .half-width img {
     width: 70%;
-    
+    float: right;
+
 }
 
 .button-decoration {
@@ -44,24 +45,27 @@ h2 {
     line-height: 70px;
 }
 
-.sec-part-heading{
+.sec-part-heading {
     text-align: center;
 }
-span{
+
+span {
     color: blue;
 }
 
-.mission{
+.mission {
     width: 30%;
     border-radius: 10px;
     background-color: rgb(196, 195, 241);
     padding: 20px 20px 20px 20px;
     margin: 10px;
 }
-.mission-vission-goals-image img{
+
+.mission-vission-goals-image img {
     width: 40%;
 }
-.vission{
+
+.vission {
     width: 30%;
     border-radius: 10px;
     background-color: rgb(202, 231, 185);
@@ -69,11 +73,89 @@ span{
     margin: 10px;
 
 }
-.goals{
+
+.goals {
     width: 30%;
     border-radius: 10px;
     background-color: rgb(235, 191, 216);
     padding: 20px 20px 20px 20px;
     margin: 10px;
 
+}
+
+
+.code-pic img {
+    width: 60%;
+    margin: 5px;
+}
+
+.project-pic img {
+    width: 50%;
+
+}
+
+
+
+
+
+
+
+
+.meeting {
+    display: flex;
+}
+
+.meeting-left {
+    width: 50%;
+}
+
+
+
+.meeting-left-heading h2 {
+    line-height: 60%;
+}
+
+.meeting-right {
+    width: 50%;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.meeting-right img {
+    /* height: 50%; */
+    width: 50%;
+}
+
+
+
+
+footer {
+    margin-left: 0%;
+    margin-right: 0%;
+    text-align: center;
+    font-size: larger;
+    font-weight: 700;
+    font-style: italic;
+    /* text-shadow: orchid; */
+    /* padding-top: 280px; */
+}
+
+.red-color {
+    color: red;
+
+}
+
+.orange-color {
+    color: orange;
+}
+
+.small-text {
+    text-align: center;
+    font-size: 10px;
+    /* padding-left: 40%; */
+    color: rgb(253, 251, 247);
+}
+.footer-design{
+  background-color: black;
+  /* margin: 0%; */
 }
