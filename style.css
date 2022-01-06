@@ -1,8 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 10%;
-
-
 }
 
 h1 {
@@ -23,6 +21,8 @@ h2 {
 
 .flexible-content {
     display: flex;
+    padding: 10px;
+    
 }
 
 .half-width {
@@ -30,8 +30,8 @@ h2 {
 }
 
 .half-width img {
-    width: 60%;
-    float: right;
+    width: 70%;
+    
 }
 
 .button-decoration {
@@ -42,4 +42,38 @@ h2 {
     font-size: 18px;
     border-radius: 5px;
     line-height: 70px;
+}
+
+.sec-part-heading{
+    text-align: center;
+}
+span{
+    color: blue;
+}
+
+.mission{
+    width: 30%;
+    border-radius: 10px;
+    background-color: rgb(196, 195, 241);
+    padding: 20px 20px 20px 20px;
+    margin: 10px;
+}
+.mission-vission-goals-image img{
+    width: 40%;
+}
+.vission{
+    width: 30%;
+    border-radius: 10px;
+    background-color: rgb(202, 231, 185);
+    padding: 20px 20px 20px 20px;
+    margin: 10px;
+
+}
+.goals{
+    width: 30%;
+    border-radius: 10px;
+    background-color: rgb(235, 191, 216);
+    padding: 20px 20px 20px 20px;
+    margin: 10px;
+
 }
